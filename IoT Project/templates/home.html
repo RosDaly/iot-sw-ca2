@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>IoT Magic Mirror</title>
+      <iframe src="http://free.timeanddate.com/clock/i72fg6r6/n78/tluk/fs20/fcfff/tct/pct/ftb/tt0/tw0/tm1/ts1/tb4" frameborder="100" width="200" height="50" allowTransparency="true"></iframe>
+   
+    <link rel="stylesheet" href="{{ url_for('static',    filename='css/template.css') }}">
+
+  </head>
+  <body>
+    <h1> This is my Magic Mirror </h1>
+    <p> Today is going to be a good day! </p>
+
+  <div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:200px;background-color:#transparent; border:6px solid #333333;"><div id="rsswidget" style="height:500px;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1576342520684&amp;x=http%3A%2F%2Fnews.google.com%2Fnews%3Fned%3Dus%26topic%3Dh%26output%3Drss&amp;w=200&amp;h=500&amp;bc=333333&amp;bw=6&amp;bgc=transparent&amp;m=5&amp;it=false&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=FFFFFF&amp;ls=13&amp;lb=true&amp;id=false&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=4F4F4F&amp;dts=13" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:200px; height:500px;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:6px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+ <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="Dublin" data-label_2="WEATHER" data-theme="retro-sky" data-basecolor="#070707" data-shadow="rgba(5, 5, 5, 0.5)" data-accent="rgba(7, 7, 7, 0.98)" data-cloudfill="#000406" >Dublin WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+
+ </body>
+</html>
